@@ -9,9 +9,9 @@ The supplied spreadsheet contains 921 records and 10 original predictor columns 
 This dataset is used only for an academic machine-learning exercise and must not be interpreted as a clinical diagnostic system.
 
 ## c. GitHub Repository Link
-GitHub repository: Add the repository URL after publishing this project to GitHub.
+GitHub repository: [https://github.com/2026ak05021/WILP_ML/tree/master](https://github.com/2026ak05021/WILP_ML/tree/master)
 
-Live Streamlit app: Add the Streamlit Community Cloud URL after deployment.
+Live Streamlit app: [https://2026ak05021-wilp-ml-app-igbbfe.streamlit.app/](https://2026ak05021-wilp-ml-app-igbbfe.streamlit.app/)
 
 ## d. Models used
 
@@ -55,7 +55,6 @@ Live Streamlit app: Add the Streamlit Community Cloud URL after deployment.
 The app displays Accuracy, AUC, Precision, Recall, F1, MCC, a confusion matrix, and a classification report. It loads a saved model and evaluates the uploaded labeled test data; it does not retrain on uploaded data. Raw source CSVs with the original input columns are also accepted; the app generates the engineered features used during training and excludes rows outside the training age range of 18-90.
 
 ## Before submission
-- Replace the GitHub repository and live app notes above with their published URLs.
-- Deploy the app to Streamlit Community Cloud and verify that it opens and evaluates `test_data.csv`.
 - Include the required screenshot of the assignment running in BITS Virtual Lab in the submission PDF. This screenshot must be captured in the lab; it cannot be produced by running the app locally.
-- Include the final README content in the submission PDF as required by the assignment.
+- Include this complete README content in the submission PDF as required by the assignment.
+- Add the original public dataset source citation if it is available from the assignment materials; the supplied project files do not identify that source.
