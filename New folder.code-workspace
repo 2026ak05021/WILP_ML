@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "../../../.zowe/New folder"
+		}
+	],
+	"settings": {
+		"files.autoSaveDelay": 60000
+	}
+}

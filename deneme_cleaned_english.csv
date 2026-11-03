@@ -1,0 +1,922 @@
+﻿Age,Gender,Family_History_AS,Family_History_Autoimmune,Back_Pain_Severity,Morning_Stiffness,Fever,HLA_B27,Functional_Restriction,Quality_of_Life,Diagnosis
+35,Male,Yes,Yes,4,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+42,Female,Yes,No,7,Yes,No,No,Restricted,1,Ankylosing Spondylitis
+28,Male,No,Yes,5,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+45,Female,Yes,Yes,8,Yes,No,No,Restricted,2,Ankylosing Spondylitis
+33,Male,No,Yes,6,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+47,Female,Yes,No,5,Yes,No,No,Restricted,1,Ankylosing Spondylitis
+39,Male,Yes,No,6,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+29,Female,No,Yes,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+37,Male,Yes,Yes,7,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+41,Female,Yes,No,6,Yes,No,No,Restricted,1,Ankylosing Spondylitis
+35,Male,No,Yes,3,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+43,Female,Yes,Yes,5,Yes,No,No,Restricted,2,Ankylosing Spondylitis
+30,Male,Yes,Yes,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+38,Female,No,No,7,Yes,No,No,Restricted,2,Ankylosing Spondylitis
+32,Male,Yes,Yes,6,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+36,Male,No,Yes,4,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+44,Female,Yes,Yes,8,Yes,No,No,Restricted,2,Ankylosing Spondylitis
+31,Male,Yes,No,5,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+46,Female,Yes,Yes,6,Yes,No,No,Restricted,1,Ankylosing Spondylitis
+34,Male,No,No,7,Yes,No,No,Restricted,2,Ankylosing Spondylitis
+40,Female,Yes,No,6,Yes,No,No,Restricted,3,Ankylosing Spondylitis
+27,Male,No,Yes,3,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+48,Female,Yes,Yes,5,Yes,No,No,Restricted,1,Ankylosing Spondylitis
+37,Male,Yes,No,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+35,Female,No,Yes,7,Yes,No,No,Restricted,2,Ankylosing Spondylitis
+42,Male,Yes,Yes,6,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+29,Female,Yes,No,5,Yes,No,No,Restricted,2,Ankylosing Spondylitis
+38,Male,No,Yes,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+33,Female,Yes,Yes,8,Yes,No,No,Restricted,1,Ankylosing Spondylitis
+41,Male,Yes,No,7,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+39,Female,No,Yes,6,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+36,Male,Yes,Yes,7,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+43,Female,Yes,No,4,Yes,No,No,Restricted,1,Ankylosing Spondylitis
+31,Male,Yes,Yes,5,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+47,Female,No,No,8,Yes,No,No,Restricted,3,Ankylosing Spondylitis
+34,Male,Yes,No,6,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+41,Female,Yes,Yes,7,Yes,No,No,Restricted,2,Ankylosing Spondylitis
+29,Male,No,Yes,5,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+45,Female,Yes,No,4,Yes,No,No,Restricted,2,Ankylosing Spondylitis
+37,Male,Yes,No,3,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+32,Female,No,Yes,6,Yes,No,No,Restricted,2,Ankylosing Spondylitis
+48,Male,Yes,Yes,7,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+38,Female,Yes,No,5,Yes,No,No,Restricted,1,Ankylosing Spondylitis
+35,Male,Yes,Yes,4,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+42,Female,Yes,No,7,Yes,No,No,Restricted,1,Ankylosing Spondylitis
+28,Male,No,Yes,5,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+45,Female,Yes,Yes,8,Yes,No,No,Restricted,2,Ankylosing Spondylitis
+33,Male,No,Yes,6,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+47,Female,Yes,No,5,Yes,No,No,Restricted,1,Ankylosing Spondylitis
+39,Male,Yes,No,6,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+29,Female,No,Yes,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+37,Male,Yes,Yes,7,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+41,Female,Yes,No,6,Yes,No,No,Restricted,1,Ankylosing Spondylitis
+35,Male,No,Yes,3,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+43,Female,Yes,Yes,5,Yes,No,No,Restricted,2,Ankylosing Spondylitis
+30,Male,Yes,Yes,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+38,Female,No,No,7,Yes,No,No,Restricted,2,Ankylosing Spondylitis
+32,Male,Yes,Yes,6,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+36,Female,No,Yes,5,Yes,No,No,Restricted,1,Ankylosing Spondylitis
+44,Male,Yes,Yes,8,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+31,Female,Yes,No,7,Yes,No,No,Restricted,3,Ankylosing Spondylitis
+46,Male,Yes,Yes,6,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+34,Female,No,No,7,Yes,No,No,Restricted,2,Ankylosing Spondylitis
+40,Female,Yes,No,6,No,No,Yes,Restricted,3,Ankylosing Spondylitis
+38,Male,No,Yes,3,No,No,Yes,Limited,2,Ankylosing Spondylitis
+29,Female,Yes,Yes,5,Yes,Yes,Yes,Restricted,3,Ankylosing Spondylitis
+47,Male,No,Yes,8,No,No,Yes,Restricted,1,Ankylosing Spondylitis
+36,Female,No,No,4,Yes,No,Yes,Limited,2,Ankylosing Spondylitis
+43,Male,Yes,No,7,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+31,Female,No,Yes,5,Yes,No,No,Restricted,2,Ankylosing Spondylitis
+42,Male,Yes,No,6,No,No,Yes,Restricted,1,Ankylosing Spondylitis
+39,Female,Yes,Yes,4,No,No,Yes,Restricted,2,Ankylosing Spondylitis
+34,Male,No,No,7,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+45,Female,Yes,Yes,5,No,No,Yes,Restricted,1,Ankylosing Spondylitis
+37,Male,Yes,No,6,No,No,Yes,Limited,2,Ankylosing Spondylitis
+48,Female,No,Yes,3,Yes,Yes,Yes,Restricted,3,Ankylosing Spondylitis
+30,Male,No,Yes,8,No,No,Yes,Restricted,1,Ankylosing Spondylitis
+41,Female,Yes,No,4,Yes,No,Yes,Limited,2,Ankylosing Spondylitis
+27,Male,Yes,No,5,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+44,Female,No,Yes,7,Yes,No,No,Limited,2,Ankylosing Spondylitis
+32,Male,Yes,No,4,No,No,Yes,Limited,2,Ankylosing Spondylitis
+39,Female,Yes,Yes,6,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+36,Male,No,Yes,8,No,No,Yes,Restricted,1,Ankylosing Spondylitis
+31,Female,Yes,No,3,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+48,Male,No,Yes,6,No,No,Yes,Limited,2,Ankylosing Spondylitis
+37,Female,Yes,Yes,5,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+42,Male,Yes,No,7,Yes,No,No,Restricted,2,Ankylosing Spondylitis
+29,Female,No,Yes,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+35,Male,No,No,5,No,No,Yes,Restricted,1,Ankylosing Spondylitis
+41,Female,Yes,Yes,8,Yes,No,No,Limited,2,Ankylosing Spondylitis
+38,Male,Yes,No,6,No,No,Yes,Restricted,3,Ankylosing Spondylitis
+33,Female,No,No,3,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+46,Male,Yes,No,5,Yes,No,No,Restricted,2,Ankylosing Spondylitis
+34,Female,Yes,No,6,No,No,Yes,Limited,2,Ankylosing Spondylitis
+43,Male,Yes,Yes,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+30,Female,No,Yes,7,No,No,Yes,Limited,1,Ankylosing Spondylitis
+47,Male,Yes,No,5,Yes,No,No,Restricted,2,Ankylosing Spondylitis
+36,Female,No,Yes,8,No,No,Yes,Restricted,3,Ankylosing Spondylitis
+31,Male,Yes,No,3,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+49,Female,Yes,Yes,6,Yes,No,No,Limited,2,Ankylosing Spondylitis
+35,Male,No,Yes,7,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+42,Female,Yes,No,4,Yes,No,No,Limited,1,Ankylosing Spondylitis
+29,Male,No,No,5,No,No,Yes,Restricted,2,Ankylosing Spondylitis
+38,Female,Yes,Yes,8,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+33,Male,Yes,No,6,No,No,Yes,Limited,1,Ankylosing Spondylitis
+46,Female,No,Yes,3,No,No,Yes,Restricted,2,Ankylosing Spondylitis
+40,Male,Yes,Yes,7,Yes,No,No,Restricted,3,Ankylosing Spondylitis
+37,Female,Yes,No,5,Yes,No,No,Limited,1,Ankylosing Spondylitis
+33,Female,No,Yes,6,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+41,Male,Yes,No,8,No,No,Yes,Restricted,3,Ankylosing Spondylitis
+28,Female,Yes,Yes,4,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+39,Male,No,Yes,7,No,No,Yes,Restricted,2,Ankylosing Spondylitis
+36,Female,Yes,No,5,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+31,Male,Yes,Yes,3,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+48,Female,No,No,7,Yes,No,Yes,Limited,2,Ankylosing Spondylitis
+37,Male,No,No,4,Yes,No,No,Restricted,3,Ankylosing Spondylitis
+44,Female,Yes,Yes,6,No,No,Yes,Restricted,1,Ankylosing Spondylitis
+29,Male,Yes,No,5,Yes,No,No,Restricted,2,Ankylosing Spondylitis
+35,Female,No,Yes,8,No,No,Yes,Limited,3,Ankylosing Spondylitis
+42,Male,No,Yes,4,No,No,Yes,Restricted,1,Ankylosing Spondylitis
+30,Female,Yes,No,6,Yes,No,No,Restricted,2,Ankylosing Spondylitis
+38,Male,Yes,Yes,3,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+45,Female,No,No,7,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+34,Male,Yes,No,5,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+43,Female,No,Yes,4,No,No,Yes,Restricted,3,Ankylosing Spondylitis
+32,Male,No,Yes,8,No,No,Yes,Limited,1,Ankylosing Spondylitis
+9,Female,No,Yes,6,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+47,Male,Yes,No,8,No,No,Yes,Limited,3,Ankylosing Spondylitis
+32,Female,Yes,Yes,4,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+36,Male,No,Yes,7,No,No,Yes,Restricted,2,Ankylosing Spondylitis
+31,Female,Yes,No,5,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+48,Male,Yes,Yes,3,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+37,Female,No,No,7,Yes,No,Yes,Limited,2,Ankylosing Spondylitis
+43,Male,No,No,4,No,No,Yes,Restricted,3,Ankylosing Spondylitis
+29,Female,Yes,Yes,6,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+35,Male,Yes,No,5,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+42,Female,No,Yes,8,Yes,No,Yes,Limited,3,Ankylosing Spondylitis
+30,Male,No,Yes,4,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+38,Female,Yes,No,6,No,No,Yes,Restricted,2,Ankylosing Spondylitis
+45,Male,Yes,No,3,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+34,Female,No,Yes,7,No,No,Yes,Limited,1,Ankylosing Spondylitis
+41,Male,Yes,Yes,5,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+28,Female,Yes,No,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+46,Male,No,No,8,Yes,No,Yes,Limited,1,Ankylosing Spondylitis
+33,Female,No,No,6,No,No,Yes,Restricted,2,Ankylosing Spondylitis
+0,Female,Yes,No,6,No,No,Yes,Restricted,2,Ankylosing Spondylitis
+37,Male,No,Yes,4,No,No,Yes,Restricted,3,Ankylosing Spondylitis
+31,Female,Yes,Yes,5,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+49,Male,Yes,No,7,Yes,No,Yes,Limited,2,Ankylosing Spondylitis
+35,Female,Yes,Yes,8,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+44,Male,No,No,3,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+29,Female,No,Yes,5,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+42,Male,Yes,No,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+38,Female,Yes,Yes,6,Yes,No,Yes,Limited,1,Ankylosing Spondylitis
+46,Male,No,No,7,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+33,Female,No,Yes,8,No,No,Yes,Restricted,3,Ankylosing Spondylitis
+41,Male,Yes,No,4,No,No,Yes,Restricted,1,Ankylosing Spondylitis
+36,Female,Yes,Yes,6,No,No,Yes,Restricted,2,Ankylosing Spondylitis
+30,Male,No,Yes,5,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+48,Female,Yes,No,3,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+34,Male,Yes,Yes,7,No,No,Yes,Limited,2,Ankylosing Spondylitis
+39,Female,No,No,4,No,No,Yes,Restricted,3,Ankylosing Spondylitis
+45,Male,Yes,No,5,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+32,Female,Yes,Yes,8,Yes,No,Yes,Limited,2,Ankylosing Spondylitis
+37,Female,No,No,6,Yes,No,No,Limited,2,Ankylosing Spondylitis
+43,Male,Yes,No,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+30,Female,Yes,Yes,7,No,No,Yes,Limited,1,Ankylosing Spondylitis
+47,Male,Yes,Yes,5,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+36,Female,No,No,8,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+31,Male,No,Yes,3,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+49,Female,Yes,No,6,No,No,Yes,Limited,2,Ankylosing Spondylitis
+35,Male,No,Yes,7,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+42,Female,Yes,No,4,No,No,Yes,Limited,1,Ankylosing Spondylitis
+29,Male,No,No,5,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+38,Female,Yes,Yes,8,No,No,Yes,Restricted,3,Ankylosing Spondylitis
+33,Male,Yes,No,6,Yes,No,Yes,Limited,1,Ankylosing Spondylitis
+46,Female,No,Yes,3,No,No,Yes,Restricted,2,Ankylosing Spondylitis
+40,Male,Yes,Yes,7,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+37,Female,Yes,No,5,Yes,No,Yes,Limited,1,Ankylosing Spondylitis
+34,Female,Yes,No,6,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+43,Male,Yes,Yes,4,No,No,Yes,Restricted,3,Ankylosing Spondylitis
+30,Female,No,Yes,7,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+47,Male,No,Yes,5,No,No,Yes,Limited,2,Ankylosing Spondylitis
+36,Female,Yes,Yes,8,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+31,Male,No,Yes,3,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+49,Female,Yes,No,6,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+35,Male,No,No,7,No,No,Yes,Limited,3,Ankylosing Spondylitis
+42,Female,Yes,No,4,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+29,Male,Yes,No,5,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+38,Female,No,Yes,8,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+33,Male,Yes,Yes,6,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+46,Female,Yes,Yes,3,No,No,Yes,Limited,2,Ankylosing Spondylitis
+40,Male,No,No,7,No,No,Yes,Restricted,3,Ankylosing Spondylitis
+37,Female,Yes,No,5,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+38,Female,Yes,No,6,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+47,Male,Yes,No,4,No,No,Yes,Restricted,3,Ankylosing Spondylitis
+32,Female,No,Yes,5,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+41,Male,Yes,Yes,7,Yes,No,Yes,Limited,2,Ankylosing Spondylitis
+35,Female,Yes,Yes,8,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+44,Male,No,No,3,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+29,Female,No,Yes,5,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+42,Male,Yes,No,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+39,Female,Yes,Yes,6,No,No,Yes,Limited,1,Ankylosing Spondylitis
+46,Male,No,No,7,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+33,Female,No,Yes,8,No,No,Yes,Restricted,3,Ankylosing Spondylitis
+40,Male,Yes,No,4,No,No,Yes,Restricted,1,Ankylosing Spondylitis
+37,Female,Yes,Yes,6,No,No,Yes,Restricted,2,Ankylosing Spondylitis
+30,Male,No,Yes,5,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+48,Female,Yes,No,3,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+34,Male,Yes,Yes,7,No,No,Yes,Limited,2,Ankylosing Spondylitis
+39,Female,No,No,4,No,No,Yes,Restricted,3,Ankylosing Spondylitis
+45,Male,Yes,No,5,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+32,Female,Yes,Yes,8,Yes,No,Yes,Limited,2,Ankylosing Spondylitis
+38,Female,No,Yes,6,No,No,Yes,Restricted,2,Ankylosing Spondylitis
+47,Male,Yes,Yes,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+32,Female,Yes,No,5,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+41,Male,Yes,No,7,No,No,Yes,Limited,2,Ankylosing Spondylitis
+35,Female,No,No,8,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+44,Male,Yes,No,3,No,No,Yes,Restricted,1,Ankylosing Spondylitis
+29,Female,Yes,Yes,5,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+42,Male,No,Yes,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+39,Female,Yes,No,6,No,No,Yes,Limited,1,Ankylosing Spondylitis
+46,Male,No,Yes,7,No,No,Yes,Restricted,2,Ankylosing Spondylitis
+33,Female,Yes,Yes,8,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+40,Male,No,No,4,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+37,Female,Yes,Yes,6,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+30,Male,No,Yes,5,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+48,Female,Yes,No,3,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+34,Male,Yes,Yes,7,Yes,No,Yes,Limited,2,Ankylosing Spondylitis
+39,Female,No,No,4,No,No,Yes,Restricted,3,Ankylosing Spondylitis
+45,Male,Yes,No,5,No,No,Yes,Restricted,1,Ankylosing Spondylitis
+32,Female,Yes,Yes,8,Yes,No,Yes,Limited,2,Ankylosing Spondylitis
+36,Female,Yes,No,6,No,No,Yes,Restricted,2,Ankylosing Spondylitis
+45,Male,Yes,Yes,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+31,Female,No,Yes,5,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+40,Male,Yes,No,7,No,No,Yes,Limited,2,Ankylosing Spondylitis
+34,Female,No,No,8,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+43,Male,Yes,No,3,No,No,Yes,Restricted,1,Ankylosing Spondylitis
+28,Female,Yes,Yes,5,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+41,Male,No,Yes,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+38,Female,Yes,Yes,6,Yes,No,Yes,Limited,1,Ankylosing Spondylitis
+47,Male,No,No,7,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+32,Female,Yes,No,8,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+39,Male,No,Yes,4,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+35,Female,Yes,Yes,6,No,No,Yes,Restricted,2,Ankylosing Spondylitis
+30,Male,No,Yes,5,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+49,Female,Yes,No,3,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+37,Male,Yes,Yes,7,No,No,Yes,Limited,2,Ankylosing Spondylitis
+42,Female,No,No,4,No,No,Yes,Restricted,3,Ankylosing Spondylitis
+29,Male,Yes,No,6,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+46,Female,Yes,Yes,5,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+33,Male,No,Yes,8,Yes,No,Yes,Limited,3,Ankylosing Spondylitis
+36,Female,Yes,No,6,No,No,Yes,Restricted,2,Ankylosing Spondylitis
+45,Male,Yes,Yes,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+31,Female,No,Yes,5,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+40,Male,Yes,No,7,No,No,Yes,Limited,2,Ankylosing Spondylitis
+34,Female,No,No,8,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+43,Male,Yes,No,3,No,No,Yes,Restricted,1,Ankylosing Spondylitis
+28,Female,Yes,Yes,5,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+41,Male,No,Yes,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+38,Female,Yes,Yes,6,Yes,No,Yes,Limited,1,Ankylosing Spondylitis
+47,Male,No,No,7,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+32,Female,Yes,No,8,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+39,Male,No,Yes,4,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+35,Female,Yes,Yes,6,No,No,Yes,Restricted,2,Ankylosing Spondylitis
+30,Male,No,Yes,5,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+49,Female,Yes,No,3,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+37,Male,Yes,Yes,7,No,No,Yes,Limited,2,Ankylosing Spondylitis
+42,Female,No,No,4,No,No,Yes,Restricted,3,Ankylosing Spondylitis
+29,Male,Yes,No,6,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+46,Female,Yes,Yes,5,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+33,Male,No,Yes,8,Yes,No,Yes,Limited,3,Ankylosing Spondylitis
+38,Female,No,No,6,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+47,Male,Yes,No,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+32,Female,Yes,No,5,No,No,Yes,Restricted,1,Ankylosing Spondylitis
+41,Male,Yes,Yes,7,No,No,Yes,Limited,2,Ankylosing Spondylitis
+35,Female,No,No,8,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+44,Male,Yes,No,3,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+29,Female,Yes,Yes,5,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+42,Male,No,Yes,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+39,Female,Yes,No,6,No,No,Yes,Limited,1,Ankylosing Spondylitis
+46,Male,No,Yes,7,No,No,Yes,Restricted,2,Ankylosing Spondylitis
+33,Female,Yes,Yes,8,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+40,Male,No,No,4,No,No,Yes,Restricted,1,Ankylosing Spondylitis
+37,Female,Yes,Yes,6,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+30,Male,No,Yes,5,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+48,Female,Yes,No,3,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+34,Male,Yes,Yes,7,Yes,No,Yes,Limited,2,Ankylosing Spondylitis
+39,Female,No,No,4,No,No,Yes,Restricted,3,Ankylosing Spondylitis
+45,Male,Yes,No,5,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+32,Female,Yes,Yes,8,Yes,No,Yes,Limited,2,Ankylosing Spondylitis
+37,Male,No,No,6,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+41,Female,No,No,7,Yes,No,Yes,Limited,1,Ankylosing Spondylitis
+28,Male,Yes,Yes,8,No,No,Yes,Restricted,2,Ankylosing Spondylitis
+36,Female,Yes,No,4,No,No,Yes,Restricted,3,Ankylosing Spondylitis
+43,Male,Yes,No,3,No,No,Yes,Restricted,1,Ankylosing Spondylitis
+37,Female,No,No,6,No,No,Yes,Restricted,2,Ankylosing Spondylitis
+42,Male,Yes,Yes,4,No,No,Yes,Restricted,3,Ankylosing Spondylitis
+33,Female,No,Yes,5,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+38,Male,Yes,No,7,No,No,Yes,Limited,2,Ankylosing Spondylitis
+36,Female,Yes,No,8,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+45,Male,No,No,3,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+30,Female,Yes,Yes,5,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+41,Male,No,Yes,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+39,Female,Yes,Yes,6,Yes,No,Yes,Limited,1,Ankylosing Spondylitis
+48,Male,No,No,7,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+34,Female,Yes,No,8,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+43,Male,No,No,4,No,No,Yes,Restricted,1,Ankylosing Spondylitis
+29,Female,Yes,No,6,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+44,Male,Yes,No,5,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+35,Female,No,Yes,3,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+37,Male,Yes,Yes,7,No,No,Yes,Limited,2,Ankylosing Spondylitis
+46,Female,Yes,Yes,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+32,Male,Yes,No,5,No,No,Yes,Limited,1,Ankylosing Spondylitis
+31,Female,No,No,8,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+38,Male,No,No,6,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+37,Female,No,No,6,No,No,Yes,Restricted,2,Ankylosing Spondylitis
+42,Male,Yes,Yes,4,No,No,Yes,Restricted,3,Ankylosing Spondylitis
+33,Female,No,Yes,5,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+38,Male,Yes,No,7,No,No,Yes,Limited,2,Ankylosing Spondylitis
+36,Female,Yes,No,8,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+45,Male,No,No,3,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+30,Female,Yes,Yes,5,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+41,Male,No,Yes,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+39,Female,Yes,Yes,6,Yes,No,Yes,Limited,1,Ankylosing Spondylitis
+48,Male,No,No,7,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+34,Female,Yes,No,8,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+43,Male,No,No,4,No,No,Yes,Restricted,1,Ankylosing Spondylitis
+29,Female,Yes,No,6,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+44,Male,Yes,No,5,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+35,Female,No,Yes,3,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+37,Male,Yes,Yes,7,No,No,Yes,Limited,2,Ankylosing Spondylitis
+46,Female,Yes,Yes,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+32,Male,Yes,No,5,No,No,Yes,Limited,1,Ankylosing Spondylitis
+31,Female,No,No,8,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+38,Male,No,No,6,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+37,Female,No,No,6,No,No,Yes,Restricted,2,Ankylosing Spondylitis
+42,Male,Yes,Yes,4,No,No,Yes,Restricted,3,Ankylosing Spondylitis
+33,Female,No,Yes,5,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+38,Male,Yes,No,7,No,No,Yes,Limited,2,Ankylosing Spondylitis
+36,Female,Yes,No,8,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+45,Male,No,No,3,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+30,Female,Yes,Yes,5,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+41,Male,No,Yes,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+39,Female,Yes,Yes,6,Yes,No,Yes,Limited,1,Ankylosing Spondylitis
+48,Male,No,No,7,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+34,Female,Yes,No,8,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+43,Male,No,No,4,No,No,Yes,Restricted,1,Ankylosing Spondylitis
+29,Female,Yes,No,6,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+44,Male,Yes,No,5,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+35,Female,No,Yes,3,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+37,Male,Yes,Yes,7,No,No,Yes,Limited,2,Ankylosing Spondylitis
+46,Female,Yes,Yes,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+32,Male,Yes,No,5,No,No,Yes,Limited,1,Ankylosing Spondylitis
+31,Female,No,No,8,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+38,Male,No,No,6,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+45,Male,Yes,Yes,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+31,Female,No,Yes,5,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+40,Male,Yes,No,7,No,No,Yes,Limited,2,Ankylosing Spondylitis
+34,Female,No,No,8,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+43,Male,Yes,No,3,No,No,Yes,Restricted,1,Ankylosing Spondylitis
+28,Female,Yes,Yes,5,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+41,Male,No,Yes,4,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+38,Female,Yes,Yes,6,Yes,No,Yes,Limited,1,Ankylosing Spondylitis
+47,Male,No,No,7,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+32,Female,Yes,No,8,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+39,Male,No,Yes,4,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+35,Female,Yes,Yes,6,No,No,Yes,Restricted,2,Ankylosing Spondylitis
+30,Male,No,Yes,5,Yes,No,Yes,Restricted,3,Ankylosing Spondylitis
+49,Female,Yes,No,3,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+37,Male,Yes,Yes,7,No,No,Yes,Limited,2,Ankylosing Spondylitis
+42,Female,No,No,4,No,No,Yes,Restricted,3,Ankylosing Spondylitis
+29,Male,Yes,No,6,Yes,No,Yes,Restricted,1,Ankylosing Spondylitis
+46,Female,Yes,Yes,5,Yes,No,Yes,Restricted,2,Ankylosing Spondylitis
+33,Male,No,Yes,8,Yes,No,Yes,Limited,3,Ankylosing Spondylitis
+36,Female,Yes,No,6,No,No,No,Restricted,2,Ankylosing Spondylitis
+45,Male,Yes,Yes,4,Yes,No,No,Yes,3,Ankylosing Spondylitis
+31,Female,No,Yes,5,Yes,No,No,Yes,1,Ankylosing Spondylitis
+40,Male,Yes,No,7,No,No,Yes,No,2,Ankylosing Spondylitis
+34,Female,No,No,8,Yes,No,Yes,No,3,Ankylosing Spondylitis
+43,Male,Yes,No,3,No,No,No,Yes,1,Ankylosing Spondylitis
+28,Female,Yes,Yes,5,Yes,No,No,No,2,Ankylosing Spondylitis
+41,Male,No,Yes,4,Yes,No,No,No,3,Ankylosing Spondylitis
+38,Female,Yes,Yes,6,Yes,No,No,No,1,Ankylosing Spondylitis
+47,Male,No,No,7,Yes,No,No,Yes,2,Ankylosing Spondylitis
+32,Female,Yes,No,8,Yes,No,No,Yes,3,Ankylosing Spondylitis
+39,Male,No,Yes,4,Yes,No,No,No,1,Ankylosing Spondylitis
+35,Female,Yes,Yes,6,No,No,No,No,2,Ankylosing Spondylitis
+30,Male,No,Yes,5,Yes,No,No,No,3,Ankylosing Spondylitis
+49,Female,Yes,No,3,Yes,No,No,Yes,1,Ankylosing Spondylitis
+37,Male,Yes,Yes,7,No,No,No,No,2,Ankylosing Spondylitis
+42,Female,No,No,4,No,No,No,Yes,3,Ankylosing Spondylitis
+29,Male,Yes,No,6,Yes,No,No,Yes,1,Ankylosing Spondylitis
+46,Female,Yes,Yes,5,Yes,No,No,Yes,2,Ankylosing Spondylitis
+33,Male,No,Yes,8,Yes,No,No,Yes,3,Ankylosing Spondylitis
+36,Female,Yes,No,6,No,No,No,Restricted,2,Ankylosing Spondylitis
+45,Male,Yes,Yes,4,Yes,No,No,Yes,3,Ankylosing Spondylitis
+31,Female,No,Yes,5,Yes,No,No,Yes,1,Ankylosing Spondylitis
+40,Male,Yes,No,7,No,No,Yes,No,2,Ankylosing Spondylitis
+34,Female,No,No,8,Yes,No,Yes,No,3,Ankylosing Spondylitis
+43,Male,Yes,No,3,No,No,No,Yes,1,Ankylosing Spondylitis
+28,Female,Yes,Yes,5,Yes,No,No,No,2,Ankylosing Spondylitis
+41,Male,No,Yes,4,Yes,No,No,No,3,Ankylosing Spondylitis
+38,Female,Yes,Yes,6,Yes,No,No,No,1,Ankylosing Spondylitis
+47,Male,No,No,7,Yes,No,No,Yes,2,Ankylosing Spondylitis
+32,Female,Yes,No,8,Yes,No,No,Yes,3,Ankylosing Spondylitis
+39,Male,No,Yes,4,Yes,No,No,No,1,Ankylosing Spondylitis
+35,Female,Yes,Yes,6,No,No,No,No,2,Ankylosing Spondylitis
+30,Male,No,Yes,5,Yes,No,No,No,3,Ankylosing Spondylitis
+49,Female,Yes,No,3,Yes,No,No,Yes,1,Ankylosing Spondylitis
+37,Male,Yes,Yes,7,No,No,No,No,2,Ankylosing Spondylitis
+42,Female,No,No,4,No,No,No,Yes,3,Ankylosing Spondylitis
+29,Male,Yes,No,6,Yes,No,No,Yes,1,Ankylosing Spondylitis
+46,Female,Yes,Yes,5,Yes,No,No,Yes,2,Ankylosing Spondylitis
+33,Male,No,Yes,8,Yes,No,No,Yes,3,Ankylosing Spondylitis
+36,Female,Yes,No,6,No,No,No,Restricted,2,Ankylosing Spondylitis
+45,Male,Yes,Yes,4,Yes,No,No,Yes,3,Ankylosing Spondylitis
+31,Female,No,Yes,5,Yes,No,No,Yes,1,Ankylosing Spondylitis
+40,Male,Yes,No,7,No,No,Yes,No,2,Ankylosing Spondylitis
+34,Female,No,No,8,Yes,No,Yes,No,3,Ankylosing Spondylitis
+43,Male,Yes,No,3,No,No,No,Yes,1,Ankylosing Spondylitis
+28,Female,Yes,Yes,5,Yes,No,No,No,2,Ankylosing Spondylitis
+41,Male,No,Yes,4,Yes,No,No,No,3,Ankylosing Spondylitis
+38,Female,Yes,Yes,6,Yes,No,No,No,1,Ankylosing Spondylitis
+47,Male,No,No,7,Yes,No,No,Yes,2,Ankylosing Spondylitis
+32,Female,Yes,No,8,Yes,No,No,Yes,3,Ankylosing Spondylitis
+39,Male,No,Yes,4,Yes,No,No,No,1,Ankylosing Spondylitis
+35,Female,Yes,Yes,6,No,No,No,No,2,Ankylosing Spondylitis
+30,Male,No,Yes,5,Yes,No,No,No,3,Ankylosing Spondylitis
+49,Female,Yes,No,3,Yes,No,No,Yes,1,Ankylosing Spondylitis
+37,Male,Yes,Yes,7,No,No,No,No,2,Ankylosing Spondylitis
+42,Female,No,No,4,No,No,No,Yes,3,Ankylosing Spondylitis
+29,Male,Yes,No,6,Yes,No,No,Yes,1,Ankylosing Spondylitis
+46,Female,Yes,Yes,5,Yes,No,No,Yes,2,Ankylosing Spondylitis
+33,Male,No,Yes,8,Yes,No,No,Yes,3,Ankylosing Spondylitis
+36,Female,Yes,No,6,No,No,No,Restricted,2,Ankylosing Spondylitis
+45,Male,Yes,Yes,4,Yes,No,No,No,3,Ankylosing Spondylitis
+31,Female,No,Yes,5,Yes,No,No,Yes,1,Ankylosing Spondylitis
+40,Male,Yes,No,7,No,No,Yes,Yes,2,Ankylosing Spondylitis
+34,Female,No,No,8,Yes,No,Yes,Yes,3,Ankylosing Spondylitis
+43,Male,Yes,No,3,No,No,No,No,1,Ankylosing Spondylitis
+28,Female,Yes,Yes,5,Yes,No,No,Yes,2,Ankylosing Spondylitis
+41,Male,No,Yes,4,Yes,No,No,No,3,Ankylosing Spondylitis
+38,Female,Yes,Yes,6,Yes,No,No,Yes,1,Ankylosing Spondylitis
+47,Male,No,No,7,Yes,No,No,Yes,2,Ankylosing Spondylitis
+32,Female,Yes,No,8,Yes,No,No,No,3,Ankylosing Spondylitis
+39,Male,No,Yes,4,Yes,No,No,Yes,1,Ankylosing Spondylitis
+35,Female,Yes,Yes,6,No,No,No,No,2,Ankylosing Spondylitis
+30,Male,No,Yes,5,Yes,No,No,Yes,3,Ankylosing Spondylitis
+49,Female,Yes,No,3,Yes,No,No,No,1,Ankylosing Spondylitis
+37,Male,Yes,Yes,7,No,No,No,Yes,2,Ankylosing Spondylitis
+42,Female,No,No,4,No,No,No,No,3,Ankylosing Spondylitis
+29,Male,Yes,No,6,Yes,No,No,No,1,Ankylosing Spondylitis
+46,Female,Yes,Yes,5,Yes,No,No,No,2,Ankylosing Spondylitis
+33,Male,No,Yes,8,Yes,No,No,Yes,3,Ankylosing Spondylitis
+45,Male,Yes,Yes,4,Yes,No,No,Yes,3,Ankylosing Spondylitis
+31,Female,No,Yes,5,Yes,No,No,Yes,1,Ankylosing Spondylitis
+40,Male,Yes,No,7,No,No,Yes,No,2,Ankylosing Spondylitis
+34,Female,No,No,8,Yes,No,Yes,No,3,Ankylosing Spondylitis
+43,Male,Yes,No,3,No,No,No,Yes,1,Ankylosing Spondylitis
+28,Female,Yes,Yes,5,Yes,No,No,Yes,2,Ankylosing Spondylitis
+41,Male,No,Yes,4,Yes,No,No,No,3,Ankylosing Spondylitis
+38,Female,Yes,Yes,6,Yes,No,No,Yes,1,Ankylosing Spondylitis
+47,Male,No,No,7,Yes,No,No,Yes,2,Ankylosing Spondylitis
+32,Female,Yes,No,8,Yes,No,No,Yes,3,Ankylosing Spondylitis
+39,Male,No,Yes,4,Yes,No,No,Yes,1,Ankylosing Spondylitis
+35,Female,Yes,Yes,6,No,No,No,Yes,2,Ankylosing Spondylitis
+30,Male,No,Yes,5,Yes,No,No,Yes,3,Ankylosing Spondylitis
+49,Female,Yes,No,3,Yes,No,No,Yes,1,Ankylosing Spondylitis
+37,Male,Yes,Yes,7,No,No,No,Yes,2,Ankylosing Spondylitis
+42,Female,No,No,4,No,No,No,No,3,Ankylosing Spondylitis
+29,Male,Yes,No,6,Yes,No,No,Yes,1,Ankylosing Spondylitis
+46,Female,Yes,Yes,5,Yes,No,No,Yes,2,Ankylosing Spondylitis
+33,Male,No,Yes,8,Yes,No,No,Yes,3,Ankylosing Spondylitis
+36,Female,Yes,No,6,No,No,No,Yes,2,Ankylosing Spondylitis
+45,Male,Yes,Yes,4,Yes,No,No,Yes,3,Ankylosing Spondylitis
+31,Female,No,Yes,5,Yes,No,No,Yes,1,Ankylosing Spondylitis
+40,Male,Yes,No,7,No,No,Yes,No,2,Ankylosing Spondylitis
+34,Female,No,No,8,Yes,No,Yes,No,3,Ankylosing Spondylitis
+43,Male,Yes,No,3,No,No,No,Yes,1,Ankylosing Spondylitis
+28,Female,Yes,Yes,5,Yes,No,No,Yes,2,Ankylosing Spondylitis
+41,Male,No,Yes,4,Yes,No,No,No,3,Ankylosing Spondylitis
+38,Female,Yes,Yes,6,Yes,No,No,Yes,1,Ankylosing Spondylitis
+47,Male,No,No,7,Yes,No,No,Yes,2,Ankylosing Spondylitis
+32,Female,Yes,No,8,Yes,No,No,Yes,3,Ankylosing Spondylitis
+39,Male,No,Yes,4,Yes,No,No,Yes,1,Ankylosing Spondylitis
+35,Female,Yes,Yes,6,No,No,No,Yes,2,Ankylosing Spondylitis
+30,Male,No,Yes,5,Yes,No,No,Yes,3,Ankylosing Spondylitis
+49,Female,Yes,No,3,Yes,No,No,Yes,1,Ankylosing Spondylitis
+37,Male,Yes,Yes,7,No,No,No,Yes,2,Ankylosing Spondylitis
+42,Female,No,No,4,No,No,No,No,3,Ankylosing Spondylitis
+29,Male,Yes,No,6,Yes,No,No,Yes,1,Ankylosing Spondylitis
+46,Female,Yes,Yes,5,Yes,No,No,Yes,2,Ankylosing Spondylitis
+33,Male,No,Yes,8,Yes,No,No,Yes,3,Ankylosing Spondylitis
+36,Female,Yes,No,6,No,No,No,Yes,2,Ankylosing Spondylitis
+45,Male,Yes,Yes,4,Yes,No,No,No,3,Ankylosing Spondylitis
+31,Female,No,Yes,5,Yes,No,No,No,1,Ankylosing Spondylitis
+40,Male,Yes,No,7,No,No,Yes,Yes,2,Ankylosing Spondylitis
+34,Female,No,No,8,Yes,No,Yes,No,3,Ankylosing Spondylitis
+43,Male,Yes,No,3,No,No,No,No,1,Ankylosing Spondylitis
+28,Female,Yes,Yes,5,Yes,No,No,Yes,2,Ankylosing Spondylitis
+41,Male,No,Yes,4,Yes,No,No,No,3,Ankylosing Spondylitis
+38,Female,Yes,Yes,6,Yes,No,No,Yes,1,Ankylosing Spondylitis
+47,Male,No,No,7,Yes,No,No,Yes,2,Ankylosing Spondylitis
+32,Female,Yes,No,8,Yes,No,No,Yes,3,Ankylosing Spondylitis
+39,Male,No,Yes,4,Yes,No,No,Yes,1,Ankylosing Spondylitis
+35,Female,Yes,Yes,6,No,No,No,Yes,2,Ankylosing Spondylitis
+30,Male,No,Yes,5,Yes,No,No,Yes,3,Ankylosing Spondylitis
+49,Female,Yes,No,3,Yes,No,No,Yes,1,Ankylosing Spondylitis
+37,Male,Yes,Yes,7,No,No,No,Yes,2,Ankylosing Spondylitis
+42,Female,No,No,4,No,No,No,No,3,Ankylosing Spondylitis
+29,Male,Yes,No,6,Yes,No,No,Yes,1,Ankylosing Spondylitis
+46,Female,Yes,Yes,5,Yes,No,No,Yes,2,Ankylosing Spondylitis
+33,Male,No,Yes,8,Yes,No,No,Yes,3,Ankylosing Spondylitis
+36,Female,Yes,No,6,No,No,No,Yes,2,Ankylosing Spondylitis
+45,Male,Yes,Yes,4,Yes,No,No,Yes,3,Ankylosing Spondylitis
+31,Female,No,Yes,5,Yes,No,No,Yes,1,Ankylosing Spondylitis
+40,Male,Yes,No,7,No,No,Yes,No,2,Ankylosing Spondylitis
+34,Female,No,No,8,Yes,No,Yes,No,3,Ankylosing Spondylitis
+43,Male,Yes,No,3,No,No,No,No,1,Ankylosing Spondylitis
+28,Female,Yes,Yes,5,Yes,No,No,Yes,2,Ankylosing Spondylitis
+41,Male,No,Yes,4,Yes,No,No,No,3,Ankylosing Spondylitis
+38,Female,Yes,Yes,6,Yes,No,No,Yes,1,Ankylosing Spondylitis
+47,Male,No,No,7,Yes,No,No,Yes,2,Ankylosing Spondylitis
+32,Female,Yes,No,8,Yes,No,No,Yes,3,Ankylosing Spondylitis
+39,Male,No,Yes,4,Yes,No,No,Yes,1,Ankylosing Spondylitis
+35,Female,Yes,Yes,6,No,No,No,Yes,2,Ankylosing Spondylitis
+30,Male,No,Yes,5,Yes,No,No,Yes,3,Ankylosing Spondylitis
+49,Female,Yes,No,3,Yes,No,No,Yes,1,Ankylosing Spondylitis
+37,Male,Yes,Yes,7,No,No,No,Yes,2,Ankylosing Spondylitis
+42,Female,No,No,4,No,No,No,No,3,Ankylosing Spondylitis
+29,Male,Yes,No,6,Yes,No,No,Yes,1,Ankylosing Spondylitis
+46,Female,Yes,Yes,5,Yes,No,No,Yes,2,Ankylosing Spondylitis
+33,Male,No,Yes,8,Yes,No,No,Yes,3,Ankylosing Spondylitis
+36,Female,Yes,No,6,No,No,No,Yes,2,Ankylosing Spondylitis
+45,Male,Yes,Yes,4,Yes,No,No,Yes,3,Ankylosing Spondylitis
+31,Female,No,Yes,5,Yes,No,No,Yes,1,Ankylosing Spondylitis
+40,Male,Yes,No,7,No,No,Yes,No,2,Ankylosing Spondylitis
+34,Female,No,No,8,Yes,No,Yes,No,3,Ankylosing Spondylitis
+43,Male,Yes,No,3,No,No,No,No,1,Ankylosing Spondylitis
+28,Female,Yes,Yes,5,Yes,No,No,Yes,2,Ankylosing Spondylitis
+41,Male,No,Yes,4,Yes,No,No,No,3,Ankylosing Spondylitis
+38,Female,Yes,Yes,6,Yes,No,No,Yes,1,Ankylosing Spondylitis
+47,Male,No,No,7,Yes,No,No,Yes,2,Ankylosing Spondylitis
+32,Female,Yes,No,8,Yes,No,No,Yes,3,Ankylosing Spondylitis
+39,Male,No,Yes,4,Yes,No,No,Yes,1,Ankylosing Spondylitis
+35,Female,Yes,Yes,6,No,No,No,Yes,2,Ankylosing Spondylitis
+30,Male,No,Yes,5,Yes,No,No,Yes,3,Ankylosing Spondylitis
+49,Female,Yes,No,3,Yes,No,No,Yes,1,Ankylosing Spondylitis
+37,Male,Yes,Yes,7,No,No,No,Yes,2,Ankylosing Spondylitis
+42,Female,No,No,4,No,No,No,No,3,Ankylosing Spondylitis
+29,Male,Yes,No,6,Yes,No,No,Yes,1,Ankylosing Spondylitis
+46,Female,Yes,Yes,5,Yes,No,No,Yes,2,Ankylosing Spondylitis
+33,Male,No,Yes,8,Yes,No,No,Yes,3,Ankylosing Spondylitis
+36,Female,Yes,No,6,No,No,No,Yes,2,Negative
+45,Male,Yes,Yes,4,Yes,No,No,No,3,Negative
+31,Female,No,Yes,5,Yes,No,No,No,1,Negative
+40,Male,Yes,No,7,No,No,Yes,No,2,Negative
+34,Female,No,No,8,Yes,No,Yes,No,3,Negative
+43,Male,Yes,No,3,No,No,No,No,1,Negative
+28,Female,Yes,Yes,5,Yes,No,No,No,2,Negative
+41,Male,No,Yes,4,Yes,No,No,No,3,Negative
+38,Female,Yes,Yes,6,Yes,No,No,No,1,Negative
+47,Male,No,No,7,Yes,No,No,No,2,Negative
+32,Female,Yes,No,8,Yes,No,No,No,3,Negative
+39,Male,No,Yes,4,Yes,No,No,No,1,Negative
+35,Female,Yes,Yes,6,No,No,No,No,2,Negative
+30,Male,No,Yes,5,Yes,No,No,No,3,Negative
+49,Female,Yes,No,3,Yes,No,No,No,1,Negative
+37,Male,Yes,Yes,7,No,No,No,No,2,Negative
+42,Female,No,No,4,No,No,No,No,3,Negative
+29,Male,Yes,No,6,Yes,No,No,No,1,Negative
+46,Female,Yes,Yes,5,Yes,No,No,No,2,Negative
+33,Male,No,Yes,8,Yes,No,No,No,3,Negative
+44,Female,Yes,No,7,Yes,No,No,Yes,2,Negative
+27,Male,No,No,6,Yes,No,No,No,3,Negative
+50,Female,No,No,5,Yes,No,No,Yes,1,Negative
+31,Male,Yes,Yes,4,Yes,No,No,No,2,Negative
+39,Female,No,Yes,3,No,No,No,Yes,3,Negative
+42,Male,Yes,No,8,No,No,Yes,No,1,Negative
+35,Female,Yes,Yes,7,No,No,No,No,2,Negative
+29,Male,No,No,6,Yes,No,No,No,3,Negative
+48,Female,No,Yes,5,Yes,No,No,No,1,Negative
+33,Male,Yes,No,4,Yes,No,No,No,2,Negative
+37,Female,No,Yes,3,Yes,No,No,Yes,3,Negative
+41,Male,Yes,Yes,8,Yes,No,No,Yes,1,Negative
+30,Female,Yes,No,7,Yes,No,No,Yes,2,Negative
+46,Male,No,No,6,No,No,No,No,3,Negative
+38,Female,No,No,5,Yes,No,Yes,No,1,Negative
+32,Male,Yes,Yes,4,Yes,No,No,No,2,Negative
+34,Female,No,No,3,No,No,No,No,3,Negative
+45,Male,Yes,No,8,Yes,No,No,Yes,1,Negative
+29,Female,Yes,Yes,7,No,No,No,No,2,Negative
+43,Male,No,Yes,6,Yes,No,No,No,3,Negative
+36,Female,Yes,No,6,No,No,No,Yes,2,Negative
+45,Male,Yes,Yes,4,Yes,No,No,No,3,Negative
+31,Female,No,Yes,5,Yes,No,No,No,1,Negative
+40,Male,Yes,No,7,No,No,Yes,No,2,Negative
+34,Female,No,No,8,Yes,No,Yes,No,3,Negative
+43,Male,Yes,No,3,No,No,No,No,1,Negative
+28,Female,Yes,Yes,5,Yes,No,No,No,2,Negative
+41,Male,No,Yes,4,Yes,No,No,No,3,Negative
+38,Female,Yes,Yes,6,Yes,No,No,No,1,Negative
+47,Male,No,No,7,Yes,No,No,No,2,Negative
+32,Female,Yes,No,8,Yes,No,No,No,3,Negative
+39,Male,No,Yes,4,Yes,No,No,No,1,Negative
+35,Female,Yes,Yes,6,No,No,No,No,2,Negative
+30,Male,No,Yes,5,Yes,No,No,No,3,Negative
+49,Female,Yes,No,3,Yes,No,No,No,1,Negative
+37,Male,Yes,Yes,7,No,No,No,No,2,Negative
+42,Female,No,No,4,No,No,No,No,3,Negative
+29,Male,Yes,No,6,Yes,No,No,No,1,Negative
+46,Female,Yes,Yes,5,Yes,No,No,No,2,Negative
+33,Male,No,Yes,8,Yes,No,No,No,3,Negative
+44,Female,Yes,No,7,Yes,No,No,Yes,2,Negative
+27,Male,No,No,6,Yes,No,No,No,3,Negative
+50,Female,No,No,5,Yes,No,No,Yes,1,Negative
+31,Male,Yes,Yes,4,Yes,No,No,No,2,Negative
+39,Female,No,Yes,3,No,No,No,Yes,3,Negative
+42,Male,Yes,No,8,No,No,Yes,No,1,Negative
+35,Female,Yes,Yes,7,No,No,No,No,2,Negative
+29,Male,No,No,6,Yes,No,No,No,3,Negative
+48,Female,No,Yes,5,Yes,No,No,No,1,Negative
+33,Male,Yes,No,4,Yes,No,No,No,2,Negative
+37,Female,No,Yes,3,Yes,No,No,Yes,3,Negative
+41,Male,Yes,Yes,8,Yes,No,No,Yes,1,Negative
+30,Female,Yes,No,7,Yes,No,No,Yes,2,Negative
+46,Male,No,No,6,No,No,No,No,3,Negative
+38,Female,No,No,5,Yes,No,Yes,No,1,Negative
+32,Male,Yes,Yes,4,Yes,No,No,No,2,Negative
+34,Female,No,No,3,No,No,No,No,3,Negative
+45,Male,Yes,No,8,Yes,No,No,Yes,1,Negative
+29,Female,Yes,Yes,7,No,No,No,No,2,Negative
+43,Male,No,Yes,6,Yes,No,No,No,3,Negative
+44,Female,Yes,No,7,Yes,No,No,Yes,2,Negative
+27,Male,No,No,6,Yes,No,No,No,3,Negative
+50,Female,No,No,5,Yes,No,No,Yes,1,Negative
+31,Male,Yes,Yes,4,Yes,No,No,No,2,Negative
+39,Female,No,Yes,3,No,No,No,Yes,3,Negative
+42,Male,Yes,No,8,No,No,Yes,No,1,Negative
+35,Female,Yes,Yes,7,No,No,No,No,2,Negative
+29,Male,No,No,6,Yes,No,No,No,3,Negative
+48,Female,No,Yes,5,Yes,No,No,No,1,Negative
+33,Male,Yes,No,4,Yes,No,No,No,2,Negative
+37,Female,No,Yes,3,Yes,No,No,Yes,3,Negative
+41,Male,Yes,Yes,8,Yes,No,No,Yes,1,Negative
+30,Female,Yes,No,7,Yes,No,No,Yes,2,Negative
+46,Male,No,No,6,No,No,No,No,3,Negative
+38,Female,No,No,5,Yes,No,Yes,No,1,Negative
+32,Male,Yes,Yes,4,Yes,No,No,No,2,Negative
+34,Female,No,No,3,No,No,No,No,3,Negative
+45,Male,Yes,No,8,Yes,No,No,Yes,1,Negative
+29,Female,Yes,Yes,7,No,No,No,No,2,Negative
+43,Male,No,Yes,6,Yes,No,No,No,3,Negative
+44,Female,Yes,No,7,Yes,No,No,Yes,2,Negative
+27,Male,No,No,6,Yes,No,No,No,3,Negative
+50,Female,No,No,5,Yes,No,No,Yes,1,Negative
+31,Male,Yes,Yes,4,Yes,No,No,No,2,Negative
+39,Female,No,Yes,3,No,No,No,Yes,3,Negative
+42,Male,Yes,No,8,No,No,Yes,No,1,Negative
+35,Female,Yes,Yes,7,No,No,No,No,2,Negative
+29,Male,No,No,6,Yes,No,No,No,3,Negative
+48,Female,No,Yes,5,Yes,No,No,No,1,Negative
+33,Male,Yes,No,4,Yes,No,No,No,2,Negative
+37,Female,No,Yes,3,Yes,No,No,Yes,3,Negative
+41,Male,Yes,Yes,8,Yes,No,No,Yes,1,Negative
+30,Female,Yes,No,7,Yes,No,No,Yes,2,Negative
+46,Male,No,No,6,No,No,No,No,3,Negative
+38,Female,No,No,5,Yes,No,Yes,No,1,Negative
+32,Male,Yes,Yes,4,Yes,No,No,No,2,Negative
+34,Female,No,No,3,No,No,No,No,3,Negative
+45,Male,Yes,No,8,Yes,No,No,Yes,1,Negative
+29,Female,Yes,Yes,7,No,No,No,No,2,Negative
+43,Male,No,Yes,6,Yes,No,No,No,3,Negative
+44,Female,Yes,No,7,Yes,No,No,Yes,2,Negative
+27,Male,No,No,6,Yes,No,No,No,3,Negative
+50,Female,No,No,5,Yes,No,No,Yes,1,Negative
+31,Male,Yes,Yes,4,Yes,No,No,No,2,Negative
+39,Female,No,Yes,3,No,No,No,Yes,3,Negative
+42,Male,Yes,No,8,No,No,Yes,No,1,Negative
+35,Female,Yes,Yes,7,No,No,No,No,2,Negative
+29,Male,No,No,6,Yes,No,No,No,3,Negative
+48,Female,No,Yes,5,Yes,No,No,No,1,Negative
+33,Male,Yes,No,4,Yes,No,No,No,2,Negative
+37,Female,No,Yes,3,Yes,No,No,Yes,3,Negative
+41,Male,Yes,Yes,8,Yes,No,No,Yes,1,Negative
+30,Female,Yes,No,7,Yes,No,No,Yes,2,Negative
+46,Male,No,No,6,No,No,No,No,3,Negative
+38,Female,No,No,5,Yes,No,Yes,No,1,Negative
+32,Male,Yes,Yes,4,Yes,No,No,No,2,Negative
+34,Female,No,No,3,No,No,No,No,3,Negative
+45,Male,Yes,No,8,Yes,No,No,Yes,1,Negative
+29,Female,Yes,Yes,7,No,No,No,No,2,Negative
+43,Male,No,Yes,6,Yes,No,No,No,3,Negative
+44,Female,Yes,No,7,Yes,No,No,Yes,2,Negative
+27,Male,No,No,6,Yes,No,No,No,3,Negative
+50,Female,No,No,5,Yes,No,No,Yes,1,Negative
+31,Male,Yes,Yes,4,Yes,No,No,No,2,Negative
+39,Female,No,Yes,3,No,No,No,Yes,3,Negative
+42,Male,Yes,No,8,No,No,Yes,No,1,Negative
+35,Female,Yes,Yes,7,No,No,No,No,2,Negative
+29,Male,No,No,6,Yes,No,No,No,3,Negative
+48,Female,No,Yes,5,Yes,No,No,No,1,Negative
+33,Male,Yes,No,4,Yes,No,No,No,2,Negative
+37,Female,No,Yes,3,Yes,No,No,Yes,3,Negative
+41,Male,Yes,Yes,8,Yes,No,No,Yes,1,Negative
+30,Female,Yes,No,7,Yes,No,No,Yes,2,Negative
+46,Male,No,No,6,No,No,No,No,3,Negative
+38,Female,No,No,5,Yes,No,Yes,No,1,Negative
+32,Male,Yes,Yes,4,Yes,No,No,No,2,Negative
+34,Female,No,No,3,No,No,No,No,3,Negative
+45,Male,Yes,No,8,Yes,No,No,Yes,1,Negative
+29,Female,Yes,Yes,7,No,No,No,No,2,Negative
+43,Male,No,Yes,6,Yes,No,No,No,3,Negative
+44,Female,Yes,No,7,Yes,No,No,Yes,2,Negative
+27,Male,No,No,6,Yes,No,No,No,3,Negative
+50,Female,No,No,5,Yes,No,No,Yes,1,Negative
+31,Male,Yes,Yes,4,Yes,No,No,No,2,Negative
+39,Female,No,Yes,3,No,No,No,Yes,3,Negative
+42,Male,Yes,No,8,No,No,Yes,No,1,Negative
+35,Female,Yes,Yes,7,No,No,No,No,2,Negative
+29,Male,No,No,6,Yes,No,No,No,3,Negative
+48,Female,No,Yes,5,Yes,No,No,No,1,Negative
+33,Male,Yes,No,4,Yes,No,No,No,2,Negative
+37,Female,No,Yes,3,Yes,No,No,Yes,3,Negative
+41,Male,Yes,Yes,8,Yes,No,No,Yes,1,Negative
+30,Female,Yes,No,7,Yes,No,No,Yes,2,Negative
+46,Male,No,No,6,No,No,No,No,3,Negative
+38,Female,No,No,5,Yes,No,Yes,No,1,Negative
+32,Male,Yes,Yes,4,Yes,No,No,No,2,Negative
+34,Female,No,No,3,No,No,No,No,3,Negative
+45,Male,Yes,No,8,Yes,No,No,Yes,1,Negative
+29,Female,Yes,Yes,7,No,No,No,No,2,Negative
+43,Male,No,Yes,6,Yes,No,No,No,3,Negative
+44,Female,Yes,No,7,Yes,No,No,Yes,2,Negative
+27,Male,No,No,6,Yes,No,No,No,3,Negative
+50,Female,No,No,5,Yes,No,No,Yes,1,Negative
+31,Male,Yes,Yes,4,Yes,No,No,No,2,Negative
+39,Female,No,Yes,3,No,No,No,Yes,3,Negative
+42,Male,Yes,No,8,No,No,Yes,No,1,Negative
+35,Female,Yes,Yes,7,No,No,No,No,2,Negative
+29,Male,No,No,6,Yes,No,No,No,3,Negative
+48,Female,No,Yes,5,Yes,No,No,No,1,Negative
+33,Male,Yes,No,4,Yes,No,No,No,2,Negative
+37,Female,No,Yes,3,Yes,No,No,Yes,3,Negative
+41,Male,Yes,Yes,8,Yes,No,No,Yes,1,Negative
+30,Female,Yes,No,7,Yes,No,No,Yes,2,Negative
+46,Male,No,No,6,No,No,No,No,3,Negative
+38,Female,No,No,5,Yes,No,Yes,No,1,Negative
+32,Male,Yes,Yes,4,Yes,No,No,No,2,Negative
+34,Female,No,No,3,No,No,No,No,3,Negative
+45,Male,Yes,No,8,Yes,No,No,Yes,1,Negative
+29,Female,Yes,Yes,7,No,No,No,No,2,Negative
+43,Male,No,Yes,6,Yes,No,No,No,3,Negative
+25,Female,Yes,No,7,Yes,No,No,Yes,2,Negative
+48,Male,No,No,6,Yes,No,No,No,3,Negative
+21,Female,No,No,5,Yes,No,No,Yes,1,Negative
+34,Male,Yes,Yes,4,Yes,No,No,No,2,Negative
+36,Female,No,Yes,3,No,No,No,Yes,3,Negative
+45,Male,Yes,No,8,No,No,Yes,No,1,Negative
+28,Female,Yes,Yes,7,Yes,No,No,No,2,Negative
+50,Male,No,No,6,Yes,No,No,No,3,Negative
+31,Female,No,Yes,5,No,No,No,Yes,1,Negative
+39,Male,Yes,No,4,No,No,Yes,No,2,Negative
+42,Female,Yes,Yes,3,Yes,No,No,No,3,Negative
+35,Male,No,Yes,8,No,No,Yes,Yes,1,Negative
+29,Female,Yes,No,7,No,No,No,No,2,Negative
+52,Male,No,No,6,Yes,No,No,No,3,Negative
+32,Female,Yes,Yes,5,Yes,No,No,No,1,Negative
+37,Male,No,Yes,4,No,No,No,Yes,2,Negative
+40,Female,No,No,3,No,No,No,No,3,Negative
+33,Male,Yes,No,8,Yes,No,Yes,No,1,Negative
+27,Female,Yes,Yes,7,No,No,No,Yes,2,Negative
+45,Male,No,Yes,6,No,No,No,No,3,Negative
+30,Female,No,No,5,Yes,No,No,No,1,Negative
+43,Male,Yes,No,4,Yes,No,No,Yes,2,Negative
+36,Female,Yes,Yes,3,No,No,Yes,No,3,Negative
+24,Male,No,Yes,8,Yes,No,No,No,1,Negative
+47,Female,Yes,Yes,7,No,No,No,Yes,2,Negative
+22,Male,Yes,No,6,Yes,No,No,No,3,Negative
+25,Female,No,No,5,No,No,No,Yes,1,Negative
+48,Male,Yes,No,4,Yes,No,Yes,No,2,Negative
+21,Female,Yes,Yes,3,No,No,No,No,3,Negative
+26,Male,No,No,8,No,No,No,No,1,Negative
+49,Female,Yes,No,7,Yes,No,No,Yes,2,Negative
+23,Male,Yes,Yes,6,No,No,Yes,No,3,Negative
+50,Female,No,Yes,5,Yes,No,No,No,1,Negative
+27,Male,Yes,No,4,No,No,No,Yes,2,Negative
+51,Female,Yes,No,3,Yes,No,No,No,3,Negative
+28,Male,No,Yes,8,Yes,No,No,Yes,1,Negative
+52,Female,Yes,Yes,7,No,No,No,No,2,Negative
+29,Male,No,No,6,Yes,No,No,No,3,Negative
+53,Female,Yes,No,5,Yes,No,No,Yes,1,Negative
+30,Male,Yes,Yes,4,No,No,No,No,2,Negative
+54,Female,No,No,3,No,No,No,Yes,3,Negative
+31,Male,Yes,No,8,Yes,No,Yes,No,1,Negative
+55,Female,Yes,No,7,Yes,No,No,No,2,Negative
+32,Male,No,Yes,6,No,No,No,Yes,3,Negative
+56,Female,No,Yes,5,No,No,Yes,No,1,Negative
+33,Male,Yes,Yes,4,Yes,No,No,No,2,Negative
+57,Female,Yes,Yes,3,No,No,No,Yes,3,Negative
+34,Male,No,No,8,No,No,No,No,1,Negative
+58,Female,No,No,7,Yes,No,No,No,2,Negative
+35,Male,Yes,No,6,No,No,Yes,No,3,Negative
+59,Female,Yes,No,5,Yes,No,No,Yes,1,Negative
+36,Male,No,Yes,4,Yes,No,No,No,2,Negative
+60,Female,Yes,Yes,3,No,No,Yes,No,3,Negative
+37,Male,Yes,Yes,8,No,No,No,Yes,1,Negative
+61,Female,No,No,7,Yes,No,No,No,2,Negative
+38,Male,Yes,No,6,Yes,No,No,No,3,Negative
+62,Female,No,Yes,5,No,No,No,Yes,1,Negative
+39,Male,Yes,Yes,4,No,No,No,No,2,Negative
+63,Female,Yes,Yes,3,Yes,No,No,No,3,Negative
+40,Male,No,No,8,Yes,No,Yes,No,1,Negative
+64,Female,No,No,7,No,No,No,No,2,Negative
+41,Male,Yes,No,6,No,No,No,Yes,3,Negative
+65,Female,Yes,No,5,Yes,No,No,No,1,Negative
+42,Male,No,Yes,4,No,No,No,No,2,Negative
+66,Female,No,Yes,3,Yes,No,No,Yes,3,Negative
+43,Male,Yes,Yes,8,Yes,No,No,No,1,Negative
+67,Female,Yes,Yes,7,No,No,No,Yes,2,Negative
+44,Male,No,No,6,Yes,No,No,No,3,Negative
+68,Female,No,No,5,Yes,No,Yes,No,1,Negative
+45,Male,Yes,No,4,No,No,No,Yes,2,Negative
+69,Female,Yes,No,3,No,No,No,No,3,Negative
+46,Male,No,Yes,8,Yes,No,No,No,1,Negative
+70,Female,No,Yes,7,Yes,No,No,Yes,2,Negative
+47,Male,Yes,Yes,6,No,No,Yes,No,3,Negative
+71,Female,Yes,Yes,5,Yes,No,No,No,1,Negative
+48,Male,No,No,4,No,No,No,No,2,Negative
+72,Female,No,No,3,Yes,No,No,Yes,3,Negative
+49,Male,Yes,No,8,No,No,Yes,No,1,Negative
+73,Female,Yes,No,7,No,No,No,No,2,Negative
+50,Male,No,Yes,6,Yes,No,No,No,3,Negative
+74,Female,No,Yes,5,Yes,No,Yes,No,1,Negative
+51,Male,Yes,Yes,4,No,No,No,No,2,Negative
+75,Female,Yes,Yes,3,Yes,No,No,Yes,3,Negative
+52,Male,No,No,8,No,No,No,Yes,1,Negative
+76,Female,No,No,7,Yes,No,No,No,2,Negative
+53,Male,Yes,No,6,No,No,No,No,3,Negative
+77,Female,Yes,No,5,No,No,No,Yes,1,Negative
+54,Male,No,Yes,4,Yes,No,Yes,No,2,Negative
+78,Female,No,Yes,3,Yes,No,No,No,3,Negative
+55,Male,Yes,Yes,8,Yes,No,No,No,1,Negative
+79,Female,Yes,Yes,7,No,No,Yes,No,2,Negative
+56,Male,No,No,6,No,No,No,No,3,Negative
+80,Female,No,No,5,Yes,No,No,Yes,1,Negative
+57,Male,Yes,No,4,Yes,No,No,No,2,Negative
+81,Female,Yes,No,3,No,No,No,No,3,Negative
+58,Male,No,Yes,8,Yes,No,No,Yes,1,Negative
+82,Female,No,Yes,7,Yes,No,No,No,2,Negative
+59,Male,Yes,Yes,6,No,No,No,No,3,Negative
+83,Female,Yes,Yes,5,Yes,No,No,Yes,1,Negative
+60,Male,No,No,4,No,No,Yes,No,2,Negative
+84,Female,No,No,3,No,No,No,No,3,Negative
+61,Male,Yes,No,8,No,No,No,Yes,1,Negative
+85,Female,Yes,No,7,No,No,Yes,No,2,Negative
+62,Male,No,Yes,6,Yes,No,No,No,3,Negative
+86,Female,No,Yes,5,Yes,No,Yes,No,1,Negative
+63,Male,Yes,Yes,4,No,No,No,No,2,Negative
+87,Female,Yes,Yes,3,Yes,No,No,Yes,3,Negative
+64,Male,No,No,8,Yes,No,No,No,1,Negative
+88,Female,No,No,7,No,No,No,Yes,2,Negative
+65,Male,Yes,No,6,Yes,No,No,No,3,Negative
+89,Female,Yes,No,5,Yes,No,Yes,No,1,Negative
+66,Male,No,Yes,4,No,No,No,No,2,Negative
+35,Female,Yes,Yes,4,Yes,No,Yes,Restricted,2,No
+35,Female,Yes,No,4,No,No,Yes,Restricted,2,No
+38,Female,No,Yes,3,Yes,No,Yes,Restricted,2,No
+35,Male,Yes,Yes,4,Yes,No,Yes,Restricted,2,Negative
+42,Female,No,No,3,No,No,No,Normal,3,Negative
+28,Male,Yes,Yes,2,Yes,No,No,Restricted,2,Negative
+39,Female,No,No,5,Yes,No,No,Restricted,1,Negative
+45,Male,Yes,Yes,4,Yes,No,Yes,Restricted,2,Negative
+33,Female,No,No,3,No,No,No,Normal,3,Negative
+50,Male,No,Yes,6,Yes,Yes,Yes,Restricted,2,Positive
+37,Female,Yes,Yes,4,No,No,Yes,Restricted,2,Negative
+29,Male,Yes,No,3,Yes,No,Yes,Restricted,2,Negative
+48,Female,No,Yes,5,No,No,No,Restricted,1,Positive
+41,Male,Yes,Yes,6,Yes,No,Yes,Restricted,2,Positive
+31,Female,No,No,2,No,No,No,Normal,3,Negative
+36,Male,Yes,Yes,4,Yes,No,Yes,Restricted,2,Negative
+43,Female,No,Yes,3,No,No,No,Normal,3,Negative
+27,Male,Yes,No,2,Yes,No,No,Restricted,2,Negative
+38,Female,No,No,5,Yes,No,No,Restricted,1,Negative
+46,Male,Yes,Yes,4,Yes,No,Yes,Restricted,2,Negative
+34,Female,No,No,3,No,No,No,Normal,3,Negative
+51,Male,No,Yes,6,Yes,Yes,Yes,Restricted,2,Positive
+40,Female,Yes,Yes,4,No,No,Yes,Restricted,2,Negative
+30,Male,Yes,No,3,Yes,No,Yes,Restricted,2,Negative
+49,Female,No,Yes,5,No,No,No,Restricted,1,Positive
+42,Male,Yes,Yes,6,Yes,No,Yes,Restricted,2,Positive
+32,Female,No,No,2,No,No,No,Normal,3,Negative
+35,Male,Yes,Yes,4,Yes,No,Yes,Restricted,2,Negative
+42,Female,No,No,3,No,No,No,Normal,3,Negative
+28,Male,Yes,Yes,2,Yes,No,No,Restricted,2,Negative
+39,Female,No,No,5,Yes,No,No,Restricted,1,Negative
+45,Male,Yes,Yes,4,Yes,No,Yes,Restricted,2,Negative
+33,Female,No,No,3,No,No,No,Normal,3,Negative
+37,Male,Yes,Yes,4,No,No,Yes,Restricted,2,Negative
+29,Female,Yes,No,3,Yes,No,Yes,Restricted,2,Negative
+48,Male,No,Yes,5,No,No,No,Restricted,1,Negative
+41,Female,Yes,Yes,6,Yes,No,Yes,Restricted,2,Negative
+31,Male,No,No,2,No,No,No,Normal,3,Negative
+44,Female,Yes,Yes,3,Yes,No,No,Restricted,2,Negative
+38,Male,No,No,4,Yes,No,No,Restricted,1,Negative
+30,Female,Yes,Yes,5,Yes,No,Yes,Restricted,2,Negative
+34,Male,No,No,3,No,No,No,Normal,3,Negative
+40,Female,Yes,No,4,Yes,No,Yes,Restricted,2,Negative
+29,Male,No,No,2,Yes,No,No,Restricted,2,Negative
+36,Female,Yes,Yes,5,Yes,No,No,Restricted,1,Negative
+43,Male,Yes,Yes,4,Yes,No,Yes,Restricted,2,Negative
+31,Female,No,No,3,No,No,No,Normal,3,Negative
+37,Male,Yes,No,4,No,No,Yes,Restricted,2,Negative
+45,Female,No,Yes,3,Yes,No,No,Restricted,1,Negative
+33,Male,Yes,Yes,6,Yes,No,Yes,Restricted,2,Negative
+39,Female,No,No,2,No,No,No,Normal,3,Negative
+42,Male,Yes,No,5,Yes,No,Yes,Restricted,2,Negative
+28,Female,No,Yes,4,Yes,No,No,Restricted,1,Negative
+35,Male,No,No,3,Yes,No,No,Restricted,2,Negative
+41,Female,Yes,Yes,4,Yes,No,Yes,Restricted,2,Negative
