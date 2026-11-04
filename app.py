@@ -1,5 +1,5 @@
-from pathlib import Path
 import json
+from pathlib import Path
 
 import joblib
 import pandas as pd
@@ -15,80 +15,75 @@ from sklearn.metrics import (
     roc_auc_score,
 )
 
-from data_preparation import engineer_features
+from data_preparation import TARGET_COLUMN, TARGET_LABELS, prepare_labeled_data
+
 
 MODEL_DIR = Path(__file__).resolve().parent / "model"
+MODEL_FILES = json.loads(
+    (MODEL_DIR / "model_files.json").read_text(encoding="utf-8")
+)
+FEATURES = joblib.load(MODEL_DIR / "feature_names.joblib")
 
 st.set_page_config(
-    page_title="Ankylosing Spondylitis Classification",
+    page_title="Student Depression Model Comparison",
     layout="wide",
 )
-st.title("Ankylosing Spondylitis Classification Model Comparison")
+st.title("Student Depression Classification Model Comparison")
 st.caption(
-    "Educational model comparison using the supplied assignment dataset. "
-    "This application is not a clinical diagnostic tool."
+    "Academic comparison on a labeled dataset. This model is not a mental-health "
+    "assessment or diagnostic tool."
 )
 
-files = json.loads((MODEL_DIR / "model_files.json").read_text(encoding="utf-8"))
 with st.form("evaluation_form"):
-    name = st.selectbox("Select model", list(files))
-    upload = st.file_uploader("Upload test CSV", type=["csv"])
+    model_name = st.selectbox("Select classifier", list(MODEL_FILES))
+    uploaded_file = st.file_uploader("Upload labeled test data (CSV)", type=["csv"])
     submitted = st.form_submit_button("Evaluate model")
 
 if not submitted:
-    st.info("Select a model and upload a test CSV, then click Evaluate model.")
-elif upload is None:
-    st.info(
-        "Upload test_data.csv from the repository. Raw source CSVs are also "
-        "accepted; engineered features are created automatically."
-    )
+    st.info("Upload test_data.csv, select a model, and click Evaluate model.")
+elif uploaded_file is None:
+    st.error("Upload a labeled CSV containing the predictor columns and Depression target.")
 else:
     try:
-        uploaded_df = pd.read_csv(upload)
-        df = engineer_features(uploaded_df)
-        excluded_rows = len(uploaded_df) - len(df)
+        uploaded_data = pd.read_csv(uploaded_file)
+        evaluation_data = prepare_labeled_data(uploaded_data, FEATURES)
+        X = evaluation_data[FEATURES]
+        y = evaluation_data[TARGET_COLUMN]
 
-        if excluded_rows:
-            st.warning(
-                f"Excluded {excluded_rows} row(s) with ages outside the "
-                "training range of 18-90."
-            )
-        if df.empty:
-            st.error("No rows remain after applying the training age range of 18–90.")
-            st.stop()
-
-        features = joblib.load(MODEL_DIR / "feature_names.joblib")
-        missing = [column for column in features + ["Diagnosis"] if column not in df]
-        if missing:
-            st.error("Missing columns: " + ", ".join(missing))
+        if set(y.unique()) != set(TARGET_LABELS):
+            st.error("The uploaded test CSV must contain both Depression labels: Yes and No.")
         else:
-            model = joblib.load(MODEL_DIR / files[name])
-            X = df[features]
-            y = df["Diagnosis"]
-            pred = model.predict(X)
-            prob = model.predict_proba(X)[
-                :, list(model.classes_).index("Positive")
+            model = joblib.load(MODEL_DIR / MODEL_FILES[model_name])
+            predictions = model.predict(X)
+            positive_probabilities = model.predict_proba(X)[
+                :, list(model.classes_).index("Yes")
             ]
 
-            vals = {
-                "Accuracy": accuracy_score(y, pred),
-                "AUC": roc_auc_score((y == "Positive").astype(int), prob),
-                "Precision": precision_score(
-                    y, pred, pos_label="Positive", zero_division=0
+            metrics = {
+                "Accuracy": accuracy_score(y, predictions),
+                "AUC": roc_auc_score(
+                    (y == "Yes").astype(int), positive_probabilities
                 ),
-                "Recall": recall_score(y, pred, pos_label="Positive", zero_division=0),
-                "F1": f1_score(y, pred, pos_label="Positive", zero_division=0),
-                "MCC": matthews_corrcoef(y, pred),
+                "Precision": precision_score(
+                    y, predictions, pos_label="Yes", zero_division=0
+                ),
+                "Recall": recall_score(
+                    y, predictions, pos_label="Yes", zero_division=0
+                ),
+                "F1": f1_score(
+                    y, predictions, pos_label="Yes", zero_division=0
+                ),
+                "MCC": matthews_corrcoef(y, predictions),
             }
-            for column, (metric, value) in zip(st.columns(6), vals.items()):
+            for column, (metric, value) in zip(st.columns(6), metrics.items()):
                 column.metric(metric, f"{value:.4f}")
 
             st.subheader("Confusion Matrix")
             st.dataframe(
                 pd.DataFrame(
-                    confusion_matrix(y, pred, labels=["Negative", "Positive"]),
-                    index=["Actual Negative", "Actual Positive"],
-                    columns=["Predicted Negative", "Predicted Positive"],
+                    confusion_matrix(y, predictions, labels=list(TARGET_LABELS)),
+                    index=["Actual No", "Actual Yes"],
+                    columns=["Predicted No", "Predicted Yes"],
                 ),
                 width="stretch",
             )
@@ -96,10 +91,14 @@ else:
             st.dataframe(
                 pd.DataFrame(
                     classification_report(
-                        y, pred, output_dict=True, zero_division=0
+                        y,
+                        predictions,
+                        labels=list(TARGET_LABELS),
+                        output_dict=True,
+                        zero_division=0,
                     )
                 ).T.round(4),
                 width="stretch",
             )
-    except Exception as error:
-        st.error(f"Unable to evaluate file: {error}")
+    except (ValueError, KeyError, pd.errors.ParserError) as error:
+        st.error(f"Unable to evaluate this CSV: {error}")

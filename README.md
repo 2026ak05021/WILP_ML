@@ -1,60 +1,116 @@
-# Ankylosing Spondylitis Classification Model Comparison
+# Student Depression Classification Model Comparison
+
+**Author:** Sachin Saraswat | **Student ID:** 2026ak05021
 
 ## a. Problem statement
-Build and compare five supervised classification models using the supplied ankylosing spondylitis dataset. The Streamlit application evaluates previously saved models on uploaded test data without retraining.
+
+This project compares five supervised classification models on a student
+depression survey dataset. The Streamlit app lets a user upload labeled test
+data, select a saved model, and review its evaluation metrics. The app evaluates
+the uploaded labels against model predictions; it does not retrain models or
+provide a clinical assessment.
 
 ## b. Dataset description
-The supplied spreadsheet contains 921 records and 10 original predictor columns plus the Diagnosis target. During cleaning, two implausible ages were removed, diagnostic labels were standardized to Positive and Negative, and Functional_Restriction values were standardized. Three transparent derived predictors, Age_Group, Family_Risk_Count, and Symptom_Burden, were added. The modelling dataset therefore contains 919 records and 13 predictor columns. Categorical predictors are one-hot encoded inside each model pipeline.
 
-This dataset is used only for an academic machine-learning exercise and must not be interpreted as a clinical diagnostic system.
+The dataset is the Kaggle [Student Depression Detection
+Dataset](https://www.kaggle.com/datasets/mkhoirulmustaqim/student-depression-detection-dataset),
+described on Kaggle as survey data about demographic, academic, social,
+economic, and health-related factors associated with student depression. The
+provided CSV contains 4,464 records, 12 predictor columns, and the binary
+`Depression` target (`Yes`/`No`). There are no missing values in the supplied
+file. The CSV is used in English as provided; it was not translated or
+relabelled.
+
+The predictors are `Gender`, `Age`, `Family_background`,
+`Relationship_status`, `Marital_status`, `Living_style`, `Current_semester`,
+`CGPA`, `friend_circle`, `Health_condition`, `Cost_without_study`, and
+`Home_division`. These meet the assignment's minimum of 12 features without
+adding engineered columns. The target distribution is 3,263 `No` and 1,201
+`Yes`.
+
+The dataset is used only for an academic comparison. Its associations and
+predictions must not be used to diagnose depression or make decisions about
+individual students.
 
 ## c. GitHub Repository Link
-GitHub repository: [https://github.com/2026ak05021/WILP_ML/tree/master](https://github.com/2026ak05021/WILP_ML/tree/master)
 
-Live Streamlit app: [https://2026ak05021-wilp-ml-app-igbbfe.streamlit.app/](https://2026ak05021-wilp-ml-app-igbbfe.streamlit.app/)
+- GitHub repository: [2026ak05021/WILP_ML](https://github.com/2026ak05021/WILP_ML/tree/master)
+- Streamlit Community Cloud app: [Open the app](https://2026ak05021-wilp-ml-app-igbbfe.streamlit.app/)
+
+**Deployment note:** The Streamlit URL is the existing app address. Push these
+updated files to GitHub and redeploy the app before submission so it runs this
+student-depression version.
 
 ## d. Models used
 
-| ML Model Name          |   Accuracy |    AUC |   Precision |   Recall |     F1 |    MCC |
-|:-----------------------|-----------:|-------:|------------:|---------:|-------:|-------:|
-| Logistic Regression    |     0.7935 | 0.8421 |      0.7803 |   0.9196 | 0.8443 | 0.5602 |
-| Decision Tree          |     0.788  | 0.8879 |      0.7664 |   0.9375 | 0.8434 | 0.5518 |
-| KNN                    |     0.8424 | 0.8938 |      0.8029 |   0.9821 | 0.8835 | 0.6794 |
-| Naive Bayes            |     0.5    | 0.8362 |      1      |   0.1786 | 0.303  | 0.28   |
-| Support Vector Machine |     0.8533 | 0.8951 |      0.8571 |   0.9107 | 0.8831 | 0.6888 |
+The data was split once into a stratified 80% training set and 20% test set
+using `random_state=42` (3,571 training records and 893 test records). The same
+split and preprocessing pipeline were used for all five models. Numeric
+predictors are median-imputed and standardized; categorical predictors are
+most-frequent-imputed and one-hot encoded. Preprocessing is fitted within each
+model pipeline using training data only.
 
-## Observations
+| ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
+|---|---:|---:|---:|---:|---:|---:|
+| Logistic Regression | 0.9709 | 0.9931 | 0.9612 | 0.9292 | 0.9449 | 0.9254 |
+| Decision Tree | 0.9798 | 0.9928 | 1.0000 | 0.9250 | 0.9610 | 0.9488 |
+| K-Nearest Neighbors | 0.9485 | 0.9778 | 0.9292 | 0.8750 | 0.9013 | 0.8672 |
+| Gaussian Naive Bayes | 0.9496 | 0.9875 | 0.8884 | 0.9292 | 0.9084 | 0.8740 |
+| Support Vector Machine | 0.9877 | 0.9965 | 0.9872 | 0.9667 | 0.9768 | 0.9686 |
+
+### Observations
 
 | ML Model Name | Observation about model performance |
 |---|---|
-| Logistic Regression | Provides a clear linear baseline after numeric scaling and one-hot encoding of categorical fields. |
-| Decision Tree | Captures non-linear rules and is easy to inspect, but performance depends on depth and leaf-size controls. |
-| KNN | Uses distances between encoded and scaled records. Its performance is sensitive to the selected number of neighbours. |
-| Naive Bayes | Trains quickly and provides a useful probabilistic baseline, although its independence assumption is restrictive. |
-| Support Vector Machine | Models a non-linear decision boundary after preprocessing and produces probability estimates for AUC calculation. |
-| Overall winner | Support Vector Machine produced the strongest combined MCC, AUC and F1 result on the fixed test split. |
+| Logistic Regression | Provides a linear baseline and achieved 0.9709 accuracy on this held-out split. |
+| Decision Tree | Achieved perfect precision (1.0000) with 0.9250 recall; this does not establish that it will generalize equally well to new data. |
+| K-Nearest Neighbors | Had the lowest accuracy (0.9485) among the five on this split, while still achieving 0.8750 recall. |
+| Gaussian Naive Bayes | Achieved 0.9496 accuracy and 0.9292 recall; its conditional-independence assumption differs from the other models. |
+| Support Vector Machine | Achieved the highest accuracy (0.9877), AUC (0.9965), F1 (0.9768), and MCC (0.9686) on this split. |
+| Overall winner | Support Vector Machine had the strongest results across these metrics on this single held-out split. Further validation on independent data would be needed before making broader claims. |
 
 ## Repository contents
-- `app.py`: Streamlit application
-- `data_preparation.py`: shared label normalization and feature engineering used by training and the app
-- `train_models.py`: cleaning, feature engineering, training and evaluation
-- `requirements.txt`: deployment dependencies
-- `deneme_cleaned_english.csv`: supplied source spreadsheet in CSV form
-- `cleaned_dataset.csv`: cleaned modelling dataset
-- `test_data.csv`: held-out test data with target
-- `model/`: five saved pipelines and metadata
-- `model_metrics.csv`: comparison metrics
+
+- `app.py`: Streamlit CSV evaluation application
+- `data_preparation.py`: target-label validation and input-column checks
+- `train_models.py`: train/test split, preprocessing, model training, and metric calculation
+- `requirements.txt`: pinned application dependencies
+- `student_depression_dataset.csv`: Kaggle dataset used for this assignment
+- `test_data.csv`: held-out test rows with all predictors and the `Depression` target
+- `model/`: five saved pipelines and model/feature metadata
+- `model_metrics.csv`: metrics measured on the held-out test split
+
+## Streamlit app features
+
+The app has a labeled CSV uploader and model-selection dropdown. After the user
+uploads `test_data.csv` and clicks **Evaluate model**, it displays Accuracy,
+AUC, Precision, Recall, F1, MCC, a confusion matrix, and a classification
+report. It loads the selected saved pipeline and does not retrain it on
+uploaded data. The CSV must contain all 12 predictor columns and the
+`Depression` target with both `Yes` and `No` labels.
 
 ## Run locally
+
 1. Create a virtual environment with `python -m venv .venv`.
 2. Install dependencies with `.venv\Scripts\python.exe -m pip install -r requirements.txt`.
-3. Run `.venv\Scripts\python.exe train_models.py` to regenerate the saved models and test data.
+3. Regenerate models, metrics, and test data with `.venv\Scripts\python.exe train_models.py`.
 4. Start the app with `.venv\Scripts\python.exe -m streamlit run app.py`.
-5. Upload `test_data.csv` and select a model, then click **Evaluate model** to display the results. The model and upload controls are in a form, so changing either one requires clicking the button to submit the new selection.
+5. Upload `test_data.csv`, select a model, and click **Evaluate model**.
 
-The app displays Accuracy, AUC, Precision, Recall, F1, MCC, a confusion matrix, and a classification report. It loads a saved model and evaluates the uploaded labeled test data; it does not retrain on uploaded data. Raw source CSVs with the original input columns are also accepted; the app generates the engineered features used during training and excludes rows outside the training age range of 18-90.
+## AI assistance
 
-## Before submission
-- Include the required screenshot of the assignment running in BITS Virtual Lab in the submission PDF. This screenshot must be captured in the lab; it cannot be produced by running the app locally.
-- Include this complete README content in the submission PDF as required by the assignment.
-- Add the original public dataset source citation if it is available from the assignment materials; the supplied project files do not identify that source.
+An AI assistant helped adapt the data-preparation checks, model-training
+pipeline, Streamlit app, and this README for the selected dataset. The student
+should review and understand the implementation and follow the course rules
+for acknowledging AI assistance before submission.
+
+## Submission PDF checklist
+
+Prepare one PDF in the assignment's required order:
+
+1. Clickable GitHub repository link.
+2. Clickable Streamlit Community Cloud app link, after the updated app has
+   been deployed and verified.
+3. One screenshot of the assignment running in BITS Virtual Lab. The screenshot
+   must be captured in the lab.
+4. This complete README content.
