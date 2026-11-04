@@ -4,11 +4,11 @@
 
 ## a. Problem statement
 
-This project compares five supervised classification models on a student
-depression survey dataset. The Streamlit app lets a user upload labeled test
-data, select a saved model, and review its evaluation metrics. The app evaluates
-the uploaded labels against model predictions; it does not retrain models or
-provide a clinical assessment.
+I compared five supervised classification models using a student depression
+survey dataset. I built a Streamlit app where a user can upload labeled test
+data, select a saved model, and review its evaluation metrics. The app compares
+predictions with the uploaded labels; it does not retrain models or provide a
+clinical assessment.
 
 ## b. Dataset description
 
@@ -99,20 +99,13 @@ uploaded data. The CSV must contain all 12 predictor columns and the
 
 ## Acknowledgment
 
-AI assistance was used to review and revise parts of the data-preparation
-checks, model-training pipeline, Streamlit app, and README. The student should
-review and understand the submitted work and follow the course rules for
-acknowledging AI assistance.
+I used AI assistance to review and revise parts of the data-preparation
+checks, model-training pipeline, Streamlit app, and README. I reviewed the
+results and will follow the course rules for acknowledging AI assistance.
 
-## Submission PDF checklist
+## Submission PDF
 
-Prepare one PDF in the assignment's required order:
-
-1. Clickable GitHub repository link.
-2. Clickable Streamlit Community Cloud app link, after the updated app has
-   been deployed and verified.
-3. Screenshot evidence of the assignment running in BITS Virtual Lab. The
-   screenshots must be captured in the lab. This PDF includes a metrics view
-   and a confusion-matrix/classification-report view for each of the five
-   models.
-4. This complete README content.
+I included the clickable GitHub repository link, the live Streamlit app link,
+and screenshots captured in BITS Virtual Lab. For each of the five models, the
+screenshots show its evaluation metrics and its confusion matrix and
+classification report. The complete README is also included in the PDF.
