@@ -13,12 +13,12 @@ provide a clinical assessment.
 ## b. Dataset description
 
 The dataset is the Kaggle [Student Depression Detection
-Dataset](https://www.kaggle.com/datasets/mkhoirulmustaqim/student-depression-detection-dataset),
-described on Kaggle as survey data about demographic, academic, social,
-economic, and health-related factors associated with student depression. The
-provided CSV contains 4,464 records, 12 predictor columns, and the binary
-`Depression` target (`Yes`/`No`). There are no missing values in the supplied
-file. The CSV is used in English as provided; it was not translated or
+Dataset](https://www.kaggle.com/datasets/mkhoirulmustaqim/student-depression-detection-dataset)
+by `mkhoirulmustaqim`. Kaggle describes it as survey data about demographic,
+academic, social, economic, and health-related factors associated with student
+depression. The provided CSV contains 4,464 records, 12 predictor columns, and
+the binary `Depression` target (`Yes`/`No`). There are no missing values in the
+supplied file. The CSV is used in English as provided; it was not translated or
 relabelled.
 
 The predictors are `Gender`, `Age`, `Family_background`,
@@ -37,9 +37,8 @@ individual students.
 - GitHub repository: [2026ak05021/WILP_ML](https://github.com/2026ak05021/WILP_ML/tree/master)
 - Streamlit Community Cloud app: [Open the app](https://2026ak05021-wilp-ml-app-igbbfe.streamlit.app/)
 
-**Deployment note:** The Streamlit URL is the existing app address. Push these
-updated files to GitHub and redeploy the app before submission so it runs this
-student-depression version.
+The live Streamlit URL was verified in BITS Virtual Lab while evaluating the
+held-out test data.
 
 ## d. Models used
 
@@ -92,17 +91,18 @@ uploaded data. The CSV must contain all 12 predictor columns and the
 ## Run locally
 
 1. Create a virtual environment with `python -m venv .venv`.
-2. Install dependencies with `.venv\Scripts\python.exe -m pip install -r requirements.txt`.
-3. Regenerate models, metrics, and test data with `.venv\Scripts\python.exe train_models.py`.
-4. Start the app with `.venv\Scripts\python.exe -m streamlit run app.py`.
-5. Upload `test_data.csv`, select a model, and click **Evaluate model**.
+2. Activate it: on Linux/macOS, run `source .venv/bin/activate`; on Windows, run `.venv\Scripts\activate`.
+3. Install dependencies with `python -m pip install -r requirements.txt`.
+4. Regenerate models, metrics, and test data with `python train_models.py`.
+5. Start the app with `python -m streamlit run app.py`.
+6. Upload `test_data.csv`, select a model, and click **Evaluate model**.
 
-## AI assistance
+## Acknowledgment
 
-An AI assistant helped adapt the data-preparation checks, model-training
-pipeline, Streamlit app, and this README for the selected dataset. The student
-should review and understand the implementation and follow the course rules
-for acknowledging AI assistance before submission.
+AI assistance was used to review and revise parts of the data-preparation
+checks, model-training pipeline, Streamlit app, and README. The student should
+review and understand the submitted work and follow the course rules for
+acknowledging AI assistance.
 
 ## Submission PDF checklist
 
@@ -111,6 +111,8 @@ Prepare one PDF in the assignment's required order:
 1. Clickable GitHub repository link.
 2. Clickable Streamlit Community Cloud app link, after the updated app has
    been deployed and verified.
-3. One screenshot of the assignment running in BITS Virtual Lab. The screenshot
-   must be captured in the lab.
+3. Screenshot evidence of the assignment running in BITS Virtual Lab. The
+   screenshots must be captured in the lab. This PDF includes a metrics view
+   and a confusion-matrix/classification-report view for each of the five
+   models.
 4. This complete README content.
